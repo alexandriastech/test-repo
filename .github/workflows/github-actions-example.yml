@@ -1,0 +1,2 @@
+- name: UI-licious Test Runner
+  uses: omairvaiyani/ghact-uilicious@v1.1.1
