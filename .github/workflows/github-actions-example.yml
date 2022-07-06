@@ -1,6 +1,11 @@
 name: UI-licious Test Runner
-  uses: omairvaiyani/ghact-uilicious@v1.1.1
-  with: 
-    access-key: GPRrihvU5XCVeiaw9Vy5p3
-    project: My First Project
-    tests: myfirstTest
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      uses: omairvaiyani/ghact-uilicious@v1.1.1
+      with: 
+        access-key: GPRrihvU5XCVeiaw9Vy5p3
+        project: My First Project
+        tests: myfirstTest
